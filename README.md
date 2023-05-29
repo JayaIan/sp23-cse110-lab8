@@ -1,3 +1,5 @@
 # Lab 8 - Ian Jayachandran
 1. I would put automated tests within a Github action that runs whenever code is pushed. That is because the goal of testing is to catch errors, so I would want to catch errors early. This way testing is still automated so it is less work, and the errors are caught early so they can be fixed before a pull request or deployment. 
 2. No
+3. No I would not, based on the functionality I would assume that the user's message is sent to another user (another component), so to properly test the function you would need to assess another user's information (in another componenet) a unit test is meant to test functionality within an individual component. 
+4. Yes I would, you could easily test and measure this function in isolation as it does not interact with any other component, it tests an isolated function of a component. 
